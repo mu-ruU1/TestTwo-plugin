@@ -13,7 +13,7 @@ public final class TestTwo extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
-        plugin =this;
+        plugin = this;
 
         getCommand("fly").setExecutor(new Fly());
         getCommand("nickname").setExecutor(new NickName());
