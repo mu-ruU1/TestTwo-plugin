@@ -2,3 +2,10 @@ name: TestTwo
 version: '${project.version}'
 main: com.yuu.testtwo.TestTwo
 api-version: 1.18
+commands:
+  fly:
+    description: フライするコマンド
+  nickname:
+    description: ニックネムを作成するコマンド
+    aliases:
+      - nn
