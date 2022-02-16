@@ -1,4 +1,7 @@
-- /fly
-- /nickname (/nn)
-  - [ニックネーム]
+- /fly  
+  
+- /nickname (/nn)  
+  
+  - [ニックネーム]  
+    
   - RESET
