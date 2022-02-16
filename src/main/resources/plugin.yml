@@ -1,0 +1,4 @@
+name: TestTwo
+version: '${project.version}'
+main: com.yuu.testtwo.TestTwo
+api-version: 1.18
