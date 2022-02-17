@@ -16,8 +16,14 @@ public class NickName implements CommandExecutor {
             sender.sendMessage(ChatColor.RED + "ゲーム内から実行してください");
             return true;
         }
-        if (args.length > 1) {
-            sender.sendMessage(ChatColor.RED + "引数が足りません");
+
+        //コマンドの引数の個数が1つでない場合
+        if (args.length != 1) {
+            if (args.length < 1) {
+                sender.sendMessage(ChatColor.RED + "引数が足りません");
+            } else {
+                sender.sendMessage(ChatColor.RED + "引数が多いです");
+            }
             return true;
         }
 
